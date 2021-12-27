@@ -1,0 +1,12 @@
+                                                                            linux comments
+      git push repos-url      : pushes the files into the repository
+      ls                      :to show the directories and files prest in the system
+      clear/cls               : to clear the terminal
+      git pull                : to pull the data from the remote repository to local folder
+      git clone               : this is another method for pulling data from a repository
+      touch file-name         : to add a file into the directory
+      git init 		            :to initialize
+      git status 	            : to know the status of the git and also whether if the files are commited or not 
+      git add file-name       : adds the files
+      git commit -m "message" : commits the added files
+   

@@ -1,0 +1,20 @@
+                        VI COMMANDS
+  1. vi filename   : this command is used to enter into vi promt
+  2. escape+:+w+q+enter   :to save the content and come out of the vi
+  3. escape+:+q+enter     :without saving the changes,just come out of the vi
+  4. shift+dd             : to come out of the vi
+  5. cat filename         :to print the content
+  6. i                    : command mode to insert mode
+  7. u                    : undo the last change
+  8. U                    : undo all changes
+  9. r                    : to change the character
+ 10. x                    : delete character at the cursor
+ 11. cw                   : change word
+ 12. dw                   :to delete the word at the cursor
+ 13. 4dw            	  : to delete the four words at the cursor
+ 14. /                    : to specify the word
+ 15. o                    : to open a new file
+ 16. D      		  : to delete all the content after the cursor
+ 17. dG 		  : to delete the content
+ 18. dd   		  : to delete the current line after the cursor
+ 19. C  		  : delete the content at the cursor and it opens the new line
