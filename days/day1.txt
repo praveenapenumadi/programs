@@ -1,0 +1,159 @@
+    PROGRAM  3
+import java.util.Scanner;
+class Second
+{
+public static void main(String[] args)
+{
+Scanner s=new Scanner(System.in);
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the values");
+int num=s.nextInt();
+double number=s.nextDouble();
+String str=sc.next();
+System.out.println("String :"+str);
+System.out.println("double :"+number);
+System.out.println("integer :"+num);
+}
+}
+  output:
+C:\Users\jyothi prakash\Desktop\praveena90>javac Second.java
+
+C:\Users\jyothi prakash\Desktop\praveena90>java Second
+enter the values
+42
+3.1415
+HappyLearning....!
+String :HappyLearning....!
+double :3.1415
+integer :42
+
+  PROGRAM 5
+import java.util.Scanner;
+class Fifth
+{
+  public static void main(String[] args)
+{
+Scanner s=new Scanner(System.in);
+System.out.println("enter the number");
+int N=s.nextInt();
+int i=1;
+int result;
+ while(i<=10)
+{
+  result=N*i;
+ System.out.println(""+N+"*"+i+" ="+result);
+i=i+1;
+}
+}
+}
+ OUTPUT:
+C:\Users\jyothi prakash\Desktop\praveena90>javac Fifth.java
+
+C:\Users\jyothi prakash\Desktop\praveena90>java Fifth
+enter the number
+2
+2*1 =2
+2*2 =4
+2*3 =6
+2*4 =8
+2*5 =10
+2*6 =12
+2*7 =14
+2*8 =16
+2*9 =18
+2*10 =20
+PROGRAM  1
+  
+class First
+{
+   public static void main(String[] args)
+    {
+     System.out.println("Hello World!");
+     System.out.println("Hello Java!");
+   }
+}
+  OUTPUT:
+C:\Users\jyothi prakash\Desktop\praveena90>javac First.java
+
+C:\Users\jyothi prakash\Desktop\praveena90>java First
+Hello World!
+Hello Java!
+
+   PROGRAM 4
+
+import java.util.Scanner;
+import java.util.Formatter;
+class Fifth
+{
+  public static void main(String[] args)
+  {
+   Scanner sc=new Scanner(System.in);
+    System.out.println("==================");
+   for(int i=0;i<3;i++)
+   {
+    String s=sc.next();
+    int x=sc.nextInt();
+    String r=String.format("%03d",x);
+     System.out.println(""+s+"    "+r+"");
+    }
+    System.out.println("==================");
+  }
+} 
+OUTPUT:
+C:\Users\jyothi prakash\OneDrive\Desktop\programspravi\veena>javac Fifth.java
+
+C:\Users\jyothi prakash\OneDrive\Desktop\programspravi\veena>java Fifth
+==================
+java 4 cpp 86 python 64
+java    004
+cpp    086
+python    064
+==================
+  
+
+    PROGRAM 2
+
+import java.util.Scanner;
+class Fourth
+{
+ public static void main(String[] args)
+{
+  Scanner sc=new Scanner(System.in);
+    System.out.println("enter the number");
+     int n=sc.nextInt();
+  if(n%2==0)
+    {
+     if(n<2&&n<6)
+      {
+     System.out.println("not weird");
+     }
+     else
+      {
+      if(n>6&&n<20)
+      {
+      System.out.println("weird");
+      }
+      else
+     {
+     if(n>20)
+     {
+     System.out.println("not weird");
+    }
+  else
+   {
+    System.out.println("weird");
+   }
+   }
+  }
+ }
+}
+}
+
+OUTPUT
+
+C:\Users\LENOVO\Desktop\praveena590>javac Fourth.java
+
+C:\Users\LENOVO\Desktop\praveena590>java Fourth
+enter the number
+8
+weird

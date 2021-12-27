@@ -1,0 +1,483 @@
+     PROGRAM -4
+  import java.util.*;
+class test1
+ {
+  public static void main(String[] args)
+   {
+    Scanner sc=new Scanner(System.in);
+    int n=sc.nextInt();
+    for(int i=1;i<=n;i++)
+     {
+      for(int j=1;j<=i;j++)
+       { 
+       System.out.print(" "+i);
+       }
+       System.out.println(  );
+     }
+   }
+ }
+OUTPUT:
+C:\Users\praveena srividhya\OneDrive\Desktop\praveena>javac test1.java
+
+C:\Users\praveena srividhya\OneDrive\Desktop\praveena>java test1
+5
+ 1
+ 2 2
+ 3 3 3
+ 4 4 4 4
+ 5 5 5 5 5
+
+               PROGRAM-1
+
+import java.util.*;
+class test3
+ {
+  public static void main(String[] args)
+   {
+    Scanner sc=new Scanner(System.in);
+    int n=sc.nextInt();
+    for(int i=1;i<=n;i++)
+     {
+         
+         for(int j=1;j<=i;j++)
+               System.out.print(j+" " );
+         System.out.println();
+     }
+   }
+ }
+
+OUTPUT:
+C:\Users\praveena srividhya\OneDrive\Desktop\praveena>javac test3.java
+
+C:\Users\praveena srividhya\OneDrive\Desktop\praveena>java test3
+5
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+
+             PROGRAM-3
+
+import java.util.*;
+class test4
+ {
+  public static void main(String[] args)
+   {
+    Scanner sc=new Scanner(System.in);
+    int n=sc.nextInt();
+    for(int i=1;i<=n;i++)
+     {
+      
+        
+      for(int j=1;j<=i;j++)
+       { 
+       System.out.print("* ");
+       }
+       System.out.println();
+     }
+   }
+ }
+OUTPUT:
+C:\Users\praveena srividhya\OneDrive\Desktop\praveena>javac test4.java
+
+C:\Users\praveena srividhya\OneDrive\Desktop\praveena>java test4
+5
+*
+* *
+* * *
+* * * *
+* * * * *
+
+         PROGRAM-2
+import java.util.*;
+class test7
+ {
+  public static void main(String[] args)
+   {
+    Scanner sc=new Scanner(System.in);
+    int n=sc.nextInt();
+          char c='A';
+       for(int i=0;i<=n;i++)
+     {
+      for(int j=0;j<=i;j++)
+       { 
+       System.out.print((char)(c+j));
+       
+       }
+       System.out.println(  );
+     }
+   }
+ }
+OUTPUT:
+C:\Users\praveena srividhya\OneDrive\Desktop\praveena>java test7
+4
+A
+AB
+ABC
+ABCD
+ABCDE
+
+     PROGRAM-5
+import java.util.*;
+class test7
+ {
+  public static void main(String[] args)
+   {
+    Scanner sc=new Scanner(System.in);
+    int n=sc.nextInt();
+          char c='A';
+       for(int i=0;i<=n;i++)
+     {
+      for(int j=0;j<=i;j++)
+       { 
+       System.out.print((char)(c+i));
+       
+       }
+       System.out.println(  );
+     }
+   }
+ }
+OUTPUT:
+C:\Users\praveena srividhya\OneDrive\Desktop\praveena>java test7
+4
+A
+BB
+CCC
+DDDD
+EEEEE
+
+      PROGRAM-18
+import java.util.*;
+class test7
+ {
+  public static void main(String[] args)
+   {
+    Scanner sc=new Scanner(System.in);
+    int n=sc.nextInt();
+          char c='A';
+       for(int i=5;i>0;i--)
+     {
+      for(int j=0;j<i;j++)
+       { 
+       System.out.print((char)(c+j));
+       
+       }
+       System.out.println(  );
+     }
+   }
+ }
+OUTPUT:
+C:\Users\praveena srividhya\OneDrive\Desktop\praveena>java test7
+4
+ABCDE
+ABCD
+ABC
+AB
+A
+
+     PROGRAM-14
+import java.util.*;
+class test7
+ {
+  public static void main(String[] args)
+   {
+    Scanner sc=new Scanner(System.in);
+    int n=sc.nextInt();
+          
+       for(int i=5;i>0;i--)
+     {
+      for(int j=1;j<=i;j++)
+       { 
+       System.out.print(j+" ");
+       
+       }
+       System.out.println(  );
+     }
+   }
+ }
+OUTPUT:
+C:\Users\praveena srividhya\OneDrive\Desktop\praveena>java test7
+5
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+
+        PROGRAM-11
+
+import java.util.*;
+ class test11
+  {
+   public static void main(String[] args)
+    {
+     Scanner sc=new Scanner(System.in);
+     int n=sc.nextInt();
+     int space;
+     space=n-1;
+     for(int i=1;i<=n;i++)
+      {
+       for(int j=1;j<=space;j++)
+        {
+         System.out.print(" ");
+        }
+        space--;
+        for(int j=1;j<=2*i-1;j++)
+         {
+          System.out.print("*");
+         }
+        System.out.println(" ");
+       }
+    }
+}
+
+OUTPUT:
+C:\Users\praveena srividhya\OneDrive\Desktop>java test11
+5
+    *
+   ***
+  *****
+ *******
+*********
+
+        PROGRAM-7
+
+import java.util.*;
+ class test11
+  {
+   public static void main(String[] args)
+    {
+     Scanner sc=new Scanner(System.in);
+     int n=sc.nextInt();
+     int space;
+     space=n-1;
+     for(int i=0;i<=n;i++)
+      {
+       for(int j=0;j<=space;j++)
+        {
+         System.out.print(" ");
+        }
+        space--;
+        for(int j=1;j<=i;j++)
+         {
+          System.out.print(j+" ");
+         }
+        System.out.println(" ");
+       }
+    }
+
+OUTPUT:
+C:\Users\praveena srividhya\OneDrive\Desktop>java test11
+5
+
+    1
+   1 2
+  1 2 3
+ 1 2 3 4
+1 2 3 4 5
+ 
+        PROGRAM-12
+
+import java.util.*;
+ class test11
+  {
+   public static void main(String[] args)
+    {
+     Scanner sc=new Scanner(System.in);
+     int n=sc.nextInt();
+     int space;
+     space=n-1;
+     for(int i=0;i<=n;i++)
+      {
+       for(int j=0;j<=space;j++)
+        {
+         System.out.print(" ");
+        }
+        space--;
+        for(int j=1;j<=i;j++)
+         {
+          System.out.print(i+" ");
+         }
+        System.out.println(" ");
+       }
+    }
+}
+
+OUTPUT:
+C:\Users\praveena srividhya\OneDrive\Desktop>java test11
+5
+
+    1
+   2 2
+  3 3 3
+ 4 4 4 4
+5 5 5 5 5
+
+               PROGRAM-9
+
+import java.util.*;
+ class test11
+  {
+   public static void main(String[] args)
+    {
+     Scanner sc=new Scanner(System.in);
+     int n=sc.nextInt();
+     int space;
+      char ch = 'A';
+     space=n-1;
+     for(int i=0;i<=n;i++)
+      {
+       for(int j=0;j<=space;j++)
+        {
+         System.out.print(" ");
+        }
+        space--;
+        for(int j=0;j<=i;j++)
+         {
+          System.out.print((char)(ch+j)+" ");
+         }
+        System.out.println(" ");
+       }
+    }
+}
+
+OUTPUT:
+C:\Users\praveena srividhya\OneDrive\Desktop>java test11
+4
+    A
+   A B
+  A B C
+ A B C D
+A B C D E
+
+                PROGRAM-13
+
+import java.util.*;
+ class test11
+  {
+   public static void main(String[] args)
+    {
+     Scanner sc=new Scanner(System.in);
+     int n=sc.nextInt();
+     int space;
+      char ch = 'A';
+     space=n-1;
+     for(int i=0;i<=n;i++)
+      {
+       for(int j=0;j<=space;j++)
+        {
+         System.out.print(" ");
+        }
+        space--;
+        for(int j=0;j<=i;j++)
+         {
+          System.out.print((char)(ch+i)+" ");
+         }
+        System.out.println(" ");
+       }
+    }
+}
+
+OUTPUT:
+C:\Users\praveena srividhya\OneDrive\Desktop>java test11
+4
+    A
+   B B
+  C C C
+ D D D D
+E E E E E
+
+         PROGRAM -15
+
+import java.util.*;
+class test7
+ {
+  public static void main(String[] args)
+   {
+    Scanner sc=new Scanner(System.in);
+    int n=sc.nextInt();
+          
+       for(int i=1;i<=n;i++)
+     {
+      for(int j=5;j>=i;j--)
+       { 
+       System.out.print(+(j)+" ");
+       }
+       System.out.println(  );
+     }
+   }
+ }
+    
+OUTPUT:
+C:\Users\praveena srividhya\OneDrive\Desktop\praveena>java test7
+5
+5 4 3 2 1
+5 4 3 2
+5 4 3
+5 4
+5
+
+         PROGRAM -19
+
+import java.util.*;
+class test19
+ {
+  public static void main(String[] args)
+   {
+    Scanner sc=new Scanner(System.in);
+    int n=sc.nextInt();
+        char ch ='A'; 
+       for(int i=0;i<=n;i++)
+     {
+      for(int j=5;j>=i;j--)
+       { 
+       System.out.print((char)(ch+j)+" ");
+       }
+       System.out.println(  );
+     }
+   }
+ }
+
+OUTPUT:
+C:\Users\praveena srividhya\OneDrive\Desktop>java test19
+5
+F E D C B A
+F E D C B
+F E D C
+F E D
+F E
+F
+
+       PROGRAM -6
+import java.util.Scanner;
+
+public class day56
+{
+	public static void main(String arg[])
+	{
+		Scanner s=new Scanner(System.in);
+		int n=s.nextInt();
+		s.close();
+		for(int i=1; i<=n; i++)
+		{	
+			for(int k=1 ; k<=n-i; k++)
+				System.out.print("  ");	
+			for (int j=1; j<=i; j++)			
+				System.out.print("* ");
+			System.out.println();
+		}
+	}
+}
+
+OUTPUT:
+C:\Users\praveena srividhya\OneDrive\Desktop\pravi>java day56
+5
+        *
+      * *
+    * * *
+  * * * *
+* * * * *
+
+               
