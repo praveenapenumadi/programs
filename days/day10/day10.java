@@ -30,28 +30,11 @@ import java.util.*;
       System.out.println("the intered string :"+str.intern());
       String str2="  REDDY ";
       System.out.println("removes the spaces :"+str2 .trim());
-
-     
+      
+     //System.out.println(str.campareTo(str1));
+      System.out.println(str.endsWith("a"));
+      System.out.println(str.replace("e","i"));
+      System.out.println(str1.replaceAll("i","e"));
   }
  }
-  OUTPUT:
-C:\Users\praveena srividhya\OneDrive\Desktop\day10>java day10
-PRAVEENA
-srividya
-1
-4
-length of the string :8
-character at particular index :R
-PRAVEENA
-sub string is :RAVEENA
-sub string at start index to end index :RAV
-is full
-adding the two Strings :PRAVEENAsrividya
-replaced the value :PRAVEENA
-not equal
-split the string :[Ljava.lang.String;@2f4d3709
-covert into lower case :praveena
-covert into upper case :SRIVIDYA
-the intered string :PRAVEENA
-removes the spaces :REDDY   
-       
+  
